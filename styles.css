@@ -116,3 +116,54 @@ body {
     font-style: italic;
     font-size: 64px;
 }
+
+.invaild-input {
+    border: 2px solid red;
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
+    font-style: italic;
+    margin-top: 4px;
+    width: 150px;
+}
+
+@media (max-width: 430px) {
+    .container {
+      width: 90%;
+      border-bottom-right-radius: 150px;
+    }
+    .form-div-container {
+      width: 100%;
+    }
+    .form-layout {
+      width: 25%;
+    }
+    .form-div {
+        width: 100%;
+        justify-content: space-around;
+    }
+    .input-style {
+      width: 100%;
+    }
+    .horizontal-rule {
+      width: 100%;
+    }
+    .image-div {
+      margin-right: 0;
+    }
+    .results-container-div {
+      margin-right: 0;
+    }
+  }
+  
+  @media (max-height: 650px) {
+    .container {
+      height: 100%;
+      border-radius: 0;
+    }
+    .results-container-div {
+      margin-right: 0;
+    }
+  }
