@@ -100,7 +100,7 @@ body {
 
 .results-container-div-elements {
     display: flex;
-    /* align-self: flex-start;  */
+    align-self: flex-start; 
 }
 
 .injected-result {
