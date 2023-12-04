@@ -44,6 +44,21 @@ body {
     flex-direction: column;
 }
 
+.label-text {
+    color: hsl(0, 1%, 44%);
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+.input-style {
+    width: 150px;
+    margin-right: 30px;
+    padding: 3px;
+    font-weight: 800;
+    font-size: 32px;
+    caret-color: hsl(0, 1%, 44%);
+}
+
 .line-and-img {
     display: flex;
     justify-content: center;
@@ -68,6 +83,11 @@ body {
     border-radius: 100%;
     padding: 20%;
     cursor: pointer;
+    background-color: hsl(259, 100%, 65%);
+}
+
+.image-div-img:hover {
+    background-color: hsl(0, 0%, 8%);
 }
 
 .results-container-div {
